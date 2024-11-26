@@ -1,0 +1,17 @@
+{
+    "height": 520,
+    "grid_size": 9,
+    "fps": 10,
+    "car_count": 1000,
+    "average_speed": 7,
+    "uncertainty_speed": 0.2,
+    "range_speed": 0,
+    "average_departure": 2,
+    "uncertainty_departure": 0.2,
+    "range_departure": 0,
+    "light_switch_interval": 54,
+    "average_reaction_time": 20,
+    "uncertainty_reaction_time": 0.2,
+    "range_reaction_time": 0,
+    "render": true
+}
