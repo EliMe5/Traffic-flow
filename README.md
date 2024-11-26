@@ -1,6 +1,6 @@
 # Traffic Flow Simulation
 
-![Screenshot of the software in action](Screenshot%202024-11-26%20182910.png)
+![Screenshot of the software in action](documentation/figures/in action.png)
 
 ## Overview
 
@@ -20,8 +20,8 @@ This project provides a detailed simulation of traffic flow using **cellular aut
 
 ## How It Works
 
-### Graphical Interface and Simulation in Action
-![Screenshot of the software in action](Screenshot%202024-11-26%20182910.png)
+### Graphical Interface and Simulation
+![Screenshot of the software in action](documentation/figures/in action.png)
 
 - Users can create layouts with roads, roundabouts, and houses (orange blocks). Roads automatically connect, forming intersections.
 - Traffic behavior dynamically adapts to the layout, simulating congestion and flow in real-time.
@@ -29,7 +29,7 @@ This project provides a detailed simulation of traffic flow using **cellular aut
 ---
 
 ### Code Structure
-![Code Structure](setup.png)
+![Code Structure](documentation/figures/setup.png)
 
 - **Logic Module**: Handles simulation rules, pathfinding, and grid updates.
 - **Engine Module**: Manages the graphical interface and rendering (disabled in batch simulations for performance).
@@ -39,7 +39,7 @@ This project provides a detailed simulation of traffic flow using **cellular aut
 ---
 
 ### Reaction Time Mechanism
-![Reaction Time](reaction%20time.png)
+![Reaction Time](documentation/figures/reaction time.png)
 
 The reaction probability is determined by the car’s distance to obstacles:
 - **Distance = 5**: No reaction (0% probability).
@@ -102,7 +102,7 @@ python simulations.py
 
 ## Documentation
 For a detailed description of the implementation, methodology, and results:
-- **Report**: [Included in the repository](Report.pdf)
+- **Report**: [Included in the repository](documentation/report.pdf)
 - **Presentation**: PowerPoint slides summarizing key findings.
 
 ---
