@@ -1,10 +1,10 @@
 # Traffic Flow Simulation
 
-![Screenshot of the software in action](documentation/figures/in action.png)
+![Screenshot of the software in action](documentation/figures/in_action.png)
 
 ## Overview
 
-This project provides a detailed simulation of traffic flow using **cellular automata**, incorporating human-like braking behaviors and a graphical user interface for 2D layouts. The software models traffic phenomena such as jams, synchronized flows, and free flows. It supports interactive visualization and high-performance batch simulations.
+This project provides a detailed traffic flow simulation using **cellular automata**, incorporating human-like braking behaviours and a graphical user interface for 2D layouts. The software models traffic phenomena such as jams, synchronized flows, and free flows. It supports interactive visualization and high-performance batch simulations.
 
 ---
 
@@ -21,10 +21,10 @@ This project provides a detailed simulation of traffic flow using **cellular aut
 ## How It Works
 
 ### Graphical Interface and Simulation
-![Screenshot of the software in action](documentation/figures/in action.png)
+![Screenshot of the software in action](documentation/figures/in_action.png)
 
 - Users can create layouts with roads, roundabouts, and houses (orange blocks). Roads automatically connect, forming intersections.
-- Traffic behavior dynamically adapts to the layout, simulating congestion and flow in real-time.
+- Traffic behaviour dynamically adapts to the layout, simulating congestion and flow in real time.
 
 ---
 
@@ -39,14 +39,14 @@ This project provides a detailed simulation of traffic flow using **cellular aut
 ---
 
 ### Reaction Time Mechanism
-![Reaction Time](documentation/figures/reaction time.png)
+![Reaction Time](documentation/figures/reaction_time.png)
 
-The reaction probability is determined by the car’s distance to obstacles:
+The car’s distance to obstacles determines the reaction probability:
 - **Distance = 5**: No reaction (0% probability).
 - **Distance = 3**: 46% probability of reacting.
 - **Distance = 1**: 100% probability of stopping or slowing down.
 
-This probabilistic model mimics human-like braking behavior.
+This probabilistic model mimics human-like braking behaviour.
 
 ---
 
@@ -102,12 +102,12 @@ python simulations.py
 
 ## Documentation
 For a detailed description of the implementation, methodology, and results:
-- **Report**: [Included in the repository](documentation/report.pdf)
-- **Presentation**: PowerPoint slides summarizing key findings.
+- **Report**: [Included in the repository](documentation/Report.pdf)
+- **Presentation**: PowerPoint slides summarizing key findings. [Here](documentation/Presentation.pptx)
 
 ---
 
 ## Acknowledgments
-This project explores traffic flow behaviors based on the **Three-Phase Traffic Model** proposed by B.S. Kerner. For more details, refer to the included report.
+This project explores traffic flow behaviours based on B.S. Kerner's proposed **Three-Phase Traffic Model**. The included report provides more details.
 
 ---
